@@ -1,0 +1,13 @@
+.menuContentHide {
+  position:absolute;
+  left:-10000px;
+  opacity:0.0;
+  filter:alpha(opacity=0);
+}
+
+.menuHeader {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #1166aa;
+  cursor: pointer;
+}

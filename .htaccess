@@ -1,0 +1,6 @@
+<FilesMatch ".*~">
+deny from all
+</FilesMatch>
+
+Options -Indexes
+

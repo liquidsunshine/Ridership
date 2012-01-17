@@ -1,0 +1,111 @@
+/* background image from http://coablog.ashevillenc.gov/2011/03/hybrid-buses-hit-the-streets-in-asheville */
+body {
+  background-image:url('/images/bg.jpg');
+}
+
+
+div.body {
+  overflow: auto;
+  width: 1020px;
+  padding: 5px;
+  margin:0 auto;
+/*   background: white; */
+  background-image:url('/images/bg.png');
+  border: 1px solid black;
+}
+
+div#map_canvas {
+  height: 500px; 
+  width: 500px; 
+  float:left; 
+}
+div#sidebar {
+  width: 510px; 
+  margin-left: 500px; 
+  margin-right: 0px;
+  padding-left: 5px;
+}
+
+/*div#graph,div#info,div#descriptives {
+  border:1px dashed #bbbbbb;
+}*/
+
+div#graph {
+  width:510px; 
+  height:200px;
+  margin-bottom:5px;
+}
+div#info {
+  width:510px; 
+  margin-top:5px;
+  margin-bottom:5px;
+}
+div#graph10trip {
+  width:250px; 
+  height:250px;
+  float:left;
+}
+div#graph10stop {
+  width:250px; 
+  height:250px;
+  margin-left:260px;
+}
+table#top_trips_table {
+  width: 250px;
+  height: 250px;
+  font-size: 10pt;
+  border: 1px solid black;
+}
+table#top_trips_table td {
+  text-align: center;
+}
+
+div#descriptives {
+  margin-top: 5px;
+}
+table#descriptives_table {
+  width: 510px;
+  height: 150px;
+  font-size: 10pt;
+  border: 1px solid black;
+}
+table#descriptives_table td {
+  text-align: center;
+}
+
+tbody tr.alt{
+  background-color: #ddddff;
+}
+thead {
+  background-color: #bbbbff;
+}
+
+span.fakelink {
+  text-decoration: underline;
+  color: #16A;
+  cursor: pointer;
+}
+
+hr {
+  height: 1px;
+  border: 0;
+  width: 80%;
+  background-color: #bbbbbb;
+}
+
+
+
+/* Jquery Stuff */
+.menuContentHide {
+  position:absolute;
+  left:-10000px;
+  opacity:0.0;
+  filter:alpha(opacity=0);
+}
+
+.menuHeader {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #1166aa;
+  cursor: pointer;
+}
